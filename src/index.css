@@ -10,7 +10,10 @@
 body {
     font-size: 1.6rem;
     font-family: "Lato", sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     background-color: var(--gris-claro);
+    min-height: 100vh;
 }
 html {
     font-size: 62.5%;
@@ -207,7 +210,7 @@ header h1 {
 }
 .contenido-presupuesto p.negativo,
 .contenido-presupuesto p.negativo span {
-    color: red;
+    color: #DC2626;
 }
 .contenido-presupuesto span {
     font-weight: 900;
